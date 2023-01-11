@@ -12,12 +12,6 @@ async function getMovies(url) {
         outputData(movieList)
     }
 }
-function filterResults(movies){
-    const moviesFiltered = movies.map((index) => index.image !== "" && index.house !== "");
-
-};
-
-    
 
 
 getMovies(dataURL)
